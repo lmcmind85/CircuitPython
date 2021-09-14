@@ -66,9 +66,8 @@ while True:
         time.sleep(0.05)
 ```
 
-### Evidence
-
-### Wiring
+### Evidence and Wiring
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/IMG_2772.JPG?raw=true" width="400">
 
 ### Reflection
 
