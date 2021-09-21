@@ -42,6 +42,7 @@ I had issues with the new process of uploading code to the board by saving it to
 ## CircuitPython_Servo
 
 ### Description & Code
+After getting the Servo to mov
 
 ```python
 Code goes here
