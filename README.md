@@ -187,7 +187,7 @@ while True:
 
 ### Description & Code
 
-The goal is to have the serial monitor state the amount of times the sensor was interruped over a 4 second interval. 
+The goal is to have the serial monitor state the total amount of times the sensor was interruped every 4 seconds.
 
 ```python
 from digitalio import DigitalInOut, Direction, Pull
