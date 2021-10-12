@@ -131,7 +131,7 @@ while True:
 
 ### Description & Code
 
-The goal is to make the LCD color change in relation to the distance from the sensor.
+The goal is to make the LCD color change in relation to the distance from the sensor on a scale of 0 cm to 35 cm.
 
 ```python
 import simpleio
