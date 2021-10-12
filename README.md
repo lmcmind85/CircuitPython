@@ -122,8 +122,9 @@ while True:
 ```
 
 ### Evidence
-<img src=" " width="400">
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDImage.JPG?raw=true" width="400">
 
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDVid.gif?raw=true" width="400">
 
 
 ### Reflection
@@ -145,5 +146,5 @@ Code goes here
 
 <img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/UltraSonic_IMG_2951.JPG?raw=true" width="400">
 
-![AltText](Link)
+![AltText](https://github.com/lmcmind85/CircuitPython/blob/main/Images/UltraSonicVID.gif?raw=true)
 ### Reflection
