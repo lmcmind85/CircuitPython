@@ -31,9 +31,9 @@ while True:
 ```
 
 
-### Evidence
+### Evidence and Wiring
 
-### Wiring
+
 
 ### Reflection
 I had issues with the new process of uploading code to the board by saving it to the Python hard drive. After getting my pc to recognize my Python drive saving the code to the folder was easy. 
