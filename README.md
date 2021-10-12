@@ -126,8 +126,7 @@ while True:
 
 ### Reflection
 
-
-
+This assignment was pretty easy beacuse we already had the code for compacitive touch. We just had to figure out a toggle function to change the counting variable back and forth from positive to negative. 
 
 
 ## UltraSonic_Sensor
