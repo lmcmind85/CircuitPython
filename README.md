@@ -39,7 +39,7 @@ I had issues with the new process of uploading code to the board by saving it to
 ## CircuitPython_Servo
 
 ### Description & Code
-After getting the Servo to mov
+After getting the Servo to move, our goal is to use compacitive touch to make the servo turn to the left or the right.
 
 ```python
 Code goes here
@@ -80,6 +80,8 @@ while True:
 ## CircuitPython_LCD
 
 ### Description & Code
+
+The goal is to make a counter on the LCD sceen begin counting when a wire is touched. Touching another wire should reverse the counter.
 
 ```python
 import board
@@ -128,6 +130,8 @@ while True:
 ## UltraSonic_Sensor
 
 ### Description & Code
+
+The goal is to make the LCD color change in relation to the distance from the sensor.
 
 ```python
 import simpleio
@@ -179,6 +183,8 @@ while True:
 ## Photo_Interrupter 
 
 ### Description & Code
+
+The goal is to have the serial monitor state the amount of times the sensor was interruped over a 4 second interval. 
 
 ```python
 from digitalio import DigitalInOut, Direction, Pull
