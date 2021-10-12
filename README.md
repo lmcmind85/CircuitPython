@@ -82,6 +82,27 @@ while True:
 ### Description & Code
 
 ```python
+
+
+```
+
+### Evidence
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDImage.JPG?raw=true" width="400">
+
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDVid.gif?raw=true" width="400">
+
+
+### Reflection
+
+
+
+
+
+## UltraSonic_Sensor
+
+### Description & Code
+
+```python
 import simpleio
 import time
 import board
@@ -118,28 +139,6 @@ while True:
         time.sleep(0.1)
     except RuntimeError:
         print("Retrying!")
-
-```
-
-### Evidence
-<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDImage.JPG?raw=true" width="400">
-
-<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/LCDVid.gif?raw=true" width="400">
-
-
-### Reflection
-
-
-
-
-
-## UltraSonic_Sensor
-
-### Description & Code
-
-```python
-Code goes here
-
 ```
 
 ### Evidence
