@@ -126,7 +126,7 @@ while True:
 
 ### Reflection
 
-This assignment was pretty easy beacuse we already had the code for compacitive touch. We just had to figure out a toggle function to change the counting variable back and forth from positive to negative. 
+This assignment was pretty easy beacuse we already had the code for compacitive touch. We just had to figure out a toggle function to change the counting variable back and forth between positive and negative. 
 
 
 ## UltraSonic_Sensor
@@ -180,6 +180,7 @@ while True:
 
 ![AltText](https://github.com/lmcmind85/CircuitPython/blob/main/Images/UltraSonicVID.gif?raw=true)
 ### Reflection
+
 
 
 ## Photo_Interrupter 
