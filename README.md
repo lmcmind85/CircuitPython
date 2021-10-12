@@ -5,7 +5,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [UltraSonic Sensor](#UltraSonic_Sensor)
 ---
 
 ## Hello_CircuitPython
@@ -29,11 +29,8 @@ while True:
 
 
 ### Evidence
-Pictures / Gifs of your work should go here
 
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://www.markdownguide.org/basic-syntax/)
 
 ### Reflection
 I had issues with the new process of uploading code to the board by saving it to the Python hard drive. After getting my pc to recognize my Python drive saving the code to the folder was easy. 
@@ -125,8 +122,9 @@ while True:
 ```
 
 ### Evidence
+<img src=" " width="400">
 
-### Wiring
+
 
 ### Reflection
 
@@ -134,7 +132,7 @@ while True:
 
 
 
-## NextAssignment
+## UltraSonic_Sensor
 
 ### Description & Code
 
@@ -145,6 +143,7 @@ Code goes here
 
 ### Evidence
 
-### Wiring
+<img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/UltraSonic_IMG_2951.JPG?raw=true" width="400">
 
+![AltText](Link)
 ### Reflection
