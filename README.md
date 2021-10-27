@@ -63,10 +63,10 @@ touch_A2 = touchio.TouchIn(board.A2)
 
 
 while True:
-    if touch_A1.value:
-        print("Touch A1!")
+    if touch_A1.value:    # turn servo left if touched
+        print("Touch A1!") 
         my_servo.angle = 90
-    if touch_A2.value:
+    if touch_A2.value:   # turn servo right if touched
         print("Touch A2")
         my_servo.angle = 0
         time.sleep(0.05)
@@ -77,7 +77,7 @@ while True:
 
 ### Reflection
 
-
+Compacitive touch is simple to implement with Touchh.io and can be good for controls.
 
 
 ## CircuitPython_LCD
@@ -105,10 +105,10 @@ touchCounter1 = 0
 touchCounter2 = 0
 variable = 1
 while True:
-    lcd.set_cursor_pos(0, 0)
+    lcd.set_cursor_pos(0, 0)     #sets where lcd prints the counter.
     lcd.print(str(touchCounter1))
     lcd.set_cursor_pos(1, 0)
-    if touch_A1.value:          # same coode from compacitive touch, this wire makes the counter add the variable
+    if touch_A1.value:          # this wire makes the counter add the variable
         print("Touch A1!")
         touchCounter1 = touchCounter1 + variable
     time.sleep(0.05)
@@ -206,11 +206,11 @@ speed = 4
 start = time.time()
 
 while True:
-    photo = interrupter.value
+    photo = interrupter.value 
     if photo and not state:
         counter += 1
         counter2 += 1
-    state = photo
+    state = photo   #counts interrupts
 
     remaining = speed - time.time()
 
