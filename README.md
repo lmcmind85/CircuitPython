@@ -108,11 +108,11 @@ while True:
     lcd.set_cursor_pos(0, 0)
     lcd.print(str(touchCounter1))
     lcd.set_cursor_pos(1, 0)
-    if touch_A1.value:
+    if touch_A1.value:          # same coode from compacitive touch, this wire makes the counter add the variable
         print("Touch A1!")
         touchCounter1 = touchCounter1 + variable
     time.sleep(0.05)
-    if touch_A2.value:
+    if touch_A2.value:          # toggles variable from positive and negative
         print("Touch A2")
         variable = variable * -1
 
