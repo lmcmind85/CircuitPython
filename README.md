@@ -21,13 +21,13 @@ The goal is to make the LED on the board shine blue.
 import board
 import neopixel
 
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1) 
 dot.brightness = 0.5 
 
 print("Make it blue!")
 
 while True:
-    dot.fill((0, 0, 255))
+    dot.fill((0, 0, 255)) #color code
 ```
 
 
