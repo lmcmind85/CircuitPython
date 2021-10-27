@@ -42,7 +42,7 @@ I had issues with the new process of uploading code to the board by saving it to
 ## CircuitPython_Servo
 
 ### Description & Code
-After getting the Servo to move, our goal is to use compacitive touch to make the servo turn to the left or the right.
+After getting the Servo to move, our goal is to use capacitive touch to make the servo turn to the left or the right.
 
 ```python
 Code goes here
@@ -77,14 +77,14 @@ while True:
 
 ### Reflection
 
-Compacitive touch is simple to implement with Touchh.io and can be good for controls.
+Capacitive touch is simple to implement with Touchh.io and can be good for controls.
 
 
 ## CircuitPython_LCD
 
 ### Description & Code
 
-The goal is to make a counter on the LCD sceen begin counting when a wire is touched. Touching another wire should reverse the counter.
+The goal is to make a counter on the LCD screen begin counting when a wire is touched. Touching another wire should reverse the counter.
 
 ```python
 import board
@@ -126,7 +126,7 @@ while True:
 
 ### Reflection
 
-This assignment was pretty easy beacuse we already had the code for compacitive touch. We just had to figure out a toggle function to change the counting variable back and forth between positive and negative. 
+This assignment was pretty easy because we already had the code for capacitive touch. We just had to figure out a toggle function to change the counting variable back and forth between positive and negative. 
 
 
 ## UltraSonic_Sensor
@@ -180,7 +180,7 @@ while True:
 
 ![AltText](https://github.com/lmcmind85/CircuitPython/blob/main/Images/UltraSonicVID.gif?raw=true)
 ### Reflection
-Simple.io Mapping is used to map values in different ways to use as inputs for other funtions. 
+Simple.io Mapping is used to map values in different ways to use as inputs for other functions. 
 
 [This](https://circuitpython.readthedocs.io/projects/simpleio/en/latest/api.html) website helped.
 
@@ -189,10 +189,10 @@ Simple.io Mapping is used to map values in different ways to use as inputs for o
 
 ### Description & Code
 
-The goal is to have the serial monitor state the total amount of times the sensor was interruped every 4 seconds.
+The goal is to have the serial monitor state the total amount of times the sensor was interrupted every 4 seconds.
 
 ```python
-from digitalio import DigitalInOut, Direction, Pull
+from digital import DigitalInOut, Direction, Pull
 import time
 import board
 
@@ -233,4 +233,4 @@ while True:
 <img src="https://github.com/lmcmind85/CircuitPython/blob/main/Images/PhotoVid.gif?raw=true" width="400">
 
 ### Reflection
-It was hard to make sure it counted once per intererupt, which was done through the counter changing based of the state of the interupter. 
+It was hard to make sure it counted once per interrupt, which was done through the counter changing based on the state of the interrupter. 
